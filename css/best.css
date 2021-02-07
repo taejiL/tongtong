@@ -30,6 +30,15 @@ header nav a:hover {
 	color: #7fc241;
 }
 
+section {
+	border: 3px solid #7fc241;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px 0;
+}
+
 /* location */
 
 .location {
@@ -118,13 +127,13 @@ main {
 
 
 .number {
-	padding:30px;
 	width: 70%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: space-between;
 	margin: 0 auto;
+	padding:30px;
 }
 
 .number img {
