@@ -223,8 +223,9 @@ header nav a:hover{color:#7fc241;}
 	text-align: center;
 }
 footer{
-	/* background:gray;  */
-	width:70%;
+	width:100%;
+	background:rgb(235, 235, 235);
+	width:100%;
 	margin:0 auto;
 	display:flex;
 	justify-content: space-between;
@@ -244,6 +245,7 @@ footer > div{
 	padding:0 50px 0 0;
 }
 .sbiz{
+	padding:20px;
 	display:inline-block;
 }
 .sbiz a{width:150px; height:40px;}
